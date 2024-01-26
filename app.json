@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
+  "name": "Zenitsu",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
@@ -10,12 +10,12 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://DARKSHAN:3000@cluster0.t1wsjlv.mongodb.net/"
     },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "Guru_a2981214-b1de-4ef1-9556-3997d8bb0bff"
     },
     "MODE": {
       "description": "mode public or private",
@@ -25,7 +25,7 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "Am Zenitsu Agatsumi I Kill Demon's"
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -44,7 +44,7 @@
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "antidelete": {
